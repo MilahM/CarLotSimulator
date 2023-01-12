@@ -59,14 +59,25 @@ namespace CarLotSimulator
 
             carsInList.CarsInLot.Add(honda);
 
+            Console.WriteLine("Kia engine and honk noise:");
             kia.MakeEngineNoise(kia.EngineNoise);
             kia.MakeHonkNoise(kia.HonkNoise);
 
+            Console.WriteLine("");
+
+            Console.WriteLine("Dodge engine and honk noise:");
             dodge.MakeEngineNoise(dodge.EngineNoise);
             dodge.MakeHonkNoise(dodge.HonkNoise);
 
+            Console.WriteLine("");
+
+            Console.WriteLine("Honda engine and honk noise:");
             honda.MakeEngineNoise(honda.EngineNoise);
             honda.MakeHonkNoise(honda.HonkNoise);
+
+            Console.WriteLine("");
+
+            Console.WriteLine($"Number of cars added: {Carlot.numberOfCars}");
 
             Console.WriteLine("---------------------");
 
